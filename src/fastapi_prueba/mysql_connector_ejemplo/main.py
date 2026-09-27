@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import mysql.connector
-from fastapi_prueba.database import get_db_connection
+from fastapi_prueba.mysql_connector_ejemplo.database import get_db_connection
 
 app = FastAPI()
 
